@@ -1,10 +1,13 @@
 # Manuel 1.0: Open-source robotic arm
 
+![Robot arm standing up](standing_up.jpg)
+
 This is an open-source robotic arm I made as a hobby project. It's flexible,
 similar in size to a human arm, and relatively inexpensive. Besides a 3D
-printer, no expensive tools (>$50) are required to build it. Feel free to build
-and use this robot however you like, as long as it's safe. I sincerely hope
-that someone besides me can find some use or enjoyment out of this project.
+printer and a computer, no expensive tools (>$50) are required to build it.
+Feel free to build and use this robot however you like, as long as it's safe.
+I sincerely hope that someone besides me can find some use or enjoyment out of
+this project.
 
 Features:
 * This arm is made entirely with 3D-printed components and mass-produced
@@ -29,6 +32,7 @@ so it is fairly straightforward to control the joints with any of their
 [SDKs](https://github.com/ROBOTIS-GIT/DynamixelSDK) written in Python, C++,
 Java, C#, and more. Linux, Windows, and Mac are all supported, and you can
 connect the robot to a computer with USB.
+* All motors are backdrivable.
 * All 3D-printed components can be printed with standard PLA filament. For many
 3D printers such as my Bambu Lab A1, no supports are needed.
 * All components can be removed and replaced. No glue is used anywhere. Most
@@ -36,6 +40,8 @@ plastic components are connected with M3 screws and heat set inserts.
 * Wires are well organized. If you follow the recommended wire lengths, you
 shouldn't have any annoying dangling wires. Of course you will have to adjust
 the wire lengths if you choose extrusions that are not 300 mm.
+
+![Robot arm in resting position](resting_position.jpg)
 
 ## Tips
 
