@@ -75,7 +75,46 @@ screw in there.
 
 ## Bill of materials
 
-TODO
+Item | Minimum needed | Bundle price | Total price
+-|-|-|-
+Motors and electronics
+[DYNAMIXEL XM540-W270-T](https://www.robotis.us/dynamixel-xm540-w270-t/) | 2 | $482.89 | $965.78
+[DYNAMIXEL XM430-W350-T](https://www.robotis.us/dynamixel-xm430-w350-t/) | 3 | $310.39 | $931.17
+[DYNAMIXEL XL430-W250-T](https://www.robotis.us/dynamixel-xl430-w250-t/) | 2 | $27.50 | $55.00
+[U2D2](https://www.robotis.us/u2d2/) | 1 | $36.92 | $36.92
+Bearings and rails
+[95x120x13mm bearing](https://www.amazon.com/dp/B0DD4B5DLV?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) | 1 | $16.99 | $16.99
+[30x42x7mm bearings](https://www.amazon.com/dp/B082PXK5K9?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) | 10 | $15.19 / 10 | $15.19
+[17x23x4mm bearings](https://www.amazon.com/dp/B0CRBBMTXD?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) | 4 | $13.29 / 10 | $13.29
+[100mm linear rail with carriage](https://www.amazon.com/dp/B09SD9GXVP?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) | 1 | $16.89 | $16.89
+[MGN9C carriage block](https://www.amazon.com/dp/B085NSZD14?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) | 1 | $13.99 | $13.99
+Fasteners
+[M3x6mm heat set inserts](https://www.amazon.com/dp/B0DG8R9DNX?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) | 81 | $7.99 / 140 | $7.99
+[M3x5mm screws](https://www.amazon.com/dp/B08B1T4HHP?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) | 89 | $7.86 / 100 | $7.86
+[M3x7mm screws](https://www.amazon.com/uxcell-M3x7mm-Thread-Button-Socket/dp/B01B1OD5Q4?th=1) | 4 | $7.99 / 100 | $7.99
+[M3 hex nuts](https://www.amazon.com/Toms-world-100pcs-Stainless-Hexagon/dp/B0CMCKVB62) | 4 | $4.29 / 100 | $4.29
+[M6 screws](https://www.amazon.com/dp/B07H16MXW9?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) | 26 | $10.99 / 50 | $10.99
+[M6 T nuts](https://www.amazon.com/dp/B08DRBTXVG?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) | 26 | $15.09 / 50 | $15.09
+Structure
+[300mm 4040 T slot aluminum extrusions](https://www.amazon.com/dp/B0CP1YY3W8?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) | 6 | $33.99 / 4 | $67.98 
+[90&deg; M6 T slot extrusion connector](https://www.amazon.com/dp/B0BS6HPXKL?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) | 4 | $23.99 / 24 | $23.99
+Wiring
+[JST B3B-EH-A (male)](https://www.digikey.com/en/products/detail/jst-sales-america-inc/B3B-EH-A/926521) | 3 | $0.09 | $0.27
+[JST EHR-03 (female)](https://www.digikey.com/en/products/detail/jst-sales-america-inc/EHR-3/527225) | 11 | $0.0448 | $0.49
+[JST SEH-001T-P0.6](https://www.digikey.com/en/products/detail/jst-sales-america-inc/SEH-001T-P0-6/26213194) | 33 | $2.52 / 100 | $2.52
+[2mm diameter heat shrink tubes](https://www.amazon.com/dp/B015K4DKNY?ref=ppx_yo2ov_dt_b_fed_asin_title) | 9 | $6.19 / 280 | $6.19
+[22 gauge wire](https://www.amazon.com/dp/B01K4RP8PU?ref=ppx_yo2ov_dt_b_fed_asin_title) | 160 cm | $12.48 / 100 ft | $12.48
+Filament
+[PLA filament](https://www.amazon.com/Printer-Filament-SUNLU-Dimensional-Accuracy/dp/B07XG3RM58) | 1.14 kg | $13.99 / kg | $27.98
+**Total** | | | **$2,261.33**
+
+Taxes and shipping are not included. These prices will vary depending on where
+you live.
+
+I recommend you buy more JST connectors than the minimum indicated above. They
+are extremely cheap (only a few cents apiece), and they are very easy to mess
+up if you don't have much experience crimping. I would get at least 10 male
+connectors and 30 female connectors for good measure.
 
 ## Wire lengths
 
