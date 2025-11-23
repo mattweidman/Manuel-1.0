@@ -10,12 +10,11 @@ I sincerely hope that someone besides me can find some use or enjoyment out of
 this project.
 
 Features:
+* This robot is substantially cheaper than all commercial robotic arms (that I
+know of) with similar size and torque capabilities.
 * This arm is made entirely with 3D-printed components and mass-produced
 parts you can find online. If you have a 3D printer, some cheap hobby tools,
 and money for parts, you can build it.
-* As of 2025, the parts cost about $2300, substantially cheaper than all
-commercial robotic arms (that I know of) with similar size and torque
-capabilities.
 * There are 7 motors: 6 degrees of freedom + a gripper.
 * 4 out of 6 joints (waist + 3 wrist joints) can turn more than 360 degrees.
 * Wrist joints allow the gripper to rotate completely in all 3 axes when
@@ -25,7 +24,7 @@ and anywhere inbetween only by moving the wrist.
 similar in length to a human arm. You can change the length by using shorter or
 longer T-slot extrusions (mine are 300 mm each). A shorter arm will vibrate
 less or be able to lift more.
-* This arm was designed to lift a payload of 1 kg with the length I used.
+* Using the length that I used, the arm can hold a 1 kg payload when extended.
 * All motors are from the [Dynamixel X](https://www.robotis.us/x-series/)
 series from Robotis. Robotis has excellent documentation and code resources,
 so it is fairly straightforward to control the joints with any of their
