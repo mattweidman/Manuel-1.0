@@ -2,6 +2,8 @@
 
 ![Robot arm standing up](standing_up.jpg)
 
+Video: https://www.youtube.com/watch?v=q0eZf5LdW8s
+
 This is an open-source robotic arm I made as a hobby project. It's flexible,
 similar in size to a human arm, and relatively inexpensive. Besides a 3D
 printer and a computer, no expensive tools (>$50) are required to build it.
