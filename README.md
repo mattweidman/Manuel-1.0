@@ -38,9 +38,9 @@ connect the robot to a computer with USB.
 3D printers such as my Bambu Lab A1, no supports are needed.
 * All components can be removed and replaced. No glue is used anywhere. Most
 plastic components are connected with M3 screws and heat set inserts.
-* Wires are well organized. If you follow the recommended wire lengths, you
+* Cables are well organized. If you follow the recommended cable lengths, you
 shouldn't have any annoying dangling wires. Of course you will have to adjust
-the wire lengths if you choose extrusions that are not 300 mm.
+the cable lengths if you choose extrusions that are not 300 mm.
 
 ![Robot arm in resting position](resting_position.jpg)
 
@@ -120,16 +120,16 @@ are extremely cheap (only a few cents apiece), and they are very easy to mess
 up if you don't have much experience crimping. I would get at least 10 male
 connectors and 30 female connectors for good measure.
 
-## Wire lengths
+## Cable lengths
 
-Here is a list of all electronics and the lengths of wires between them, from
-base to tip. Every wire is written of the form "{F/M}-{#}-{F/M}", where "{F/M}"
+Here is a list of all electronics and the lengths of cables between them, from
+base to tip. Every cable is written of the form "{F/M}-{#}-{F/M}", where "{F/M}"
 indicates whether the connector on one end is female (F) or male (M), and "{#}"
-indicates the wire length in cm. Note that many Dynamixel motors come with an
-18 cm female-female wire included, so if you see "F-18-F" in the list, you
+indicates the cable length in cm. Note that many Dynamixel motors come with an
+18 cm female-female cable included, so if you see "F-18-F" in the list, you
 don't need to make it yourself.
 
-All F/M connectors are
+All cables consist of 3 wires. All F/M connectors are
 [3-pin JST EH connectors](https://emanual.robotis.com/docs/en/dxl/x/xl430-w250/#connector-information).
 
 1. [U2D2](https://emanual.robotis.com/docs/en/parts/interface/u2d2/) USB
