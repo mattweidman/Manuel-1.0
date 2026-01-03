@@ -83,7 +83,7 @@ Motors and electronics
 [DYNAMIXEL XM540-W270-T](https://www.robotis.us/dynamixel-xm540-w270-t/) | 2 | $482.89 | $965.78
 [DYNAMIXEL XM430-W350-T](https://www.robotis.us/dynamixel-xm430-w350-t/) | 3 | $310.39 | $931.17
 [DYNAMIXEL XL430-W250-T](https://www.robotis.us/dynamixel-xl430-w250-t/) | 2 | $27.50 | $55.00
-[U2D2](https://www.robotis.us/u2d2/) | 1 | $36.92 | $36.92
+[DYNAMIXEL starter set including U2D2 USB converter](https://robotis.us/dynamixel-starter-set-us/) | 1 | $68.66 | $68.66
 Bearings and rails
 [95x120x13mm bearing](https://www.amazon.com/dp/B0DD4B5DLV?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) | 1 | $16.99 | $16.99
 [30x42x7mm bearings](https://www.amazon.com/dp/B082PXK5K9?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) | 10 | $15.19 / 10 | $15.19
@@ -110,7 +110,7 @@ Filament
 [PLA filament](https://www.amazon.com/Printer-Filament-SUNLU-Dimensional-Accuracy/dp/B07XG3RM58) | 1.14 kg | $13.99 / kg | $27.98
 Grease
 [Multi-Purpose Synthetic Grease](https://www.amazon.com/dp/B000XBH9HI) | Optional | $10.28 / 3 oz | $10.28
-**Total** | | | **$2,261.33**
+**Total** | | | **$2,303.35**
 
 Taxes and shipping are not included. These prices will vary depending on where
 you live.
