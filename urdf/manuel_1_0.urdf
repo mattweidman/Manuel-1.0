@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<robot name="multipleshapes">
+
+  <material name="plastic">
+    <color rgba="0.2 0.2 0.2 1"/>
+  </material>
+
+  <material name="aluminum">
+    <color rgba="1 1 1 1"/>
+  </material>
+
+  <link name="waist">
+    <visual>
+      <geometry>
+        <cylinder length="0.076" radius="0.069"/>
+      </geometry>
+      <origin xyz="0 0 0.038"/>
+      <material name="plastic"/>
+    </visual>
+  </link>
+
+  <link name="shoulder">
+
+    <!-- Floor -->
+    <visual>
+      <geometry>
+        <cylinder length="0.015" radius="0.05"/>
+      </geometry>
+      <origin xyz="0 0 0.0075"/>
+      <material name="plastic"/>
+    </visual>
+
+    <!-- Motor side of shoulder -->
+    <visual>
+      <geometry>
+        <box size="0.055 0.08 0.095"/>
+      </geometry>
+      <origin xyz="0.066 0 0.0475"/>
+      <material name="plastic"/>
+    </visual>
+
+    <!-- Bearing side of shoulder -->
+    <visual>
+      <geometry>
+        <box size="0.009 0.065 0.08"/>
+      </geometry>
+      <origin xyz="-0.0425 0 0.04"/>
+      <material name="plastic"/>
+    </visual>
+
+    <!-- Motor -->
+    <visual>
+      <geometry>
+        <box size="0.044 0.0335 0.0585"/>
+      </geometry>
+      <origin xyz="0.097 0 0.039"/>
+      <material name="plastic"/>
+    </visual>
+  </link>
+
+  <joint name="waist_joint" type="fixed">
+    <parent link="waist"/>
+    <child link="shoulder"/>
+    <origin xyz="0 0 0.076"/>
+  </joint>
+
+</robot>
