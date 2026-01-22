@@ -2,6 +2,8 @@
 
 ![Robot arm standing up](standing_up.jpg)
 
+Video: https://www.youtube.com/watch?v=q0eZf5LdW8s
+
 This is an open-source robotic arm I made as a hobby project. It's flexible,
 similar in size to a human arm, and relatively inexpensive. Besides a 3D
 printer and a computer, no expensive tools (>$50) are required to build it.
@@ -36,9 +38,9 @@ connect the robot to a computer with USB.
 3D printers such as my Bambu Lab A1, no supports are needed.
 * All components can be removed and replaced. No glue is used anywhere. Most
 plastic components are connected with M3 screws and heat set inserts.
-* Wires are well organized. If you follow the recommended wire lengths, you
+* Cables are well organized. If you follow the recommended cable lengths, you
 shouldn't have any annoying dangling wires. Of course you will have to adjust
-the wire lengths if you choose extrusions that are not 300 mm.
+the cable lengths if you choose extrusions that are not 300 mm.
 
 ![Robot arm in resting position](resting_position.jpg)
 
@@ -81,7 +83,7 @@ Motors and electronics
 [DYNAMIXEL XM540-W270-T](https://www.robotis.us/dynamixel-xm540-w270-t/) | 2 | $482.89 | $965.78
 [DYNAMIXEL XM430-W350-T](https://www.robotis.us/dynamixel-xm430-w350-t/) | 3 | $310.39 | $931.17
 [DYNAMIXEL XL430-W250-T](https://www.robotis.us/dynamixel-xl430-w250-t/) | 2 | $27.50 | $55.00
-[U2D2](https://www.robotis.us/u2d2/) | 1 | $36.92 | $36.92
+[DYNAMIXEL starter set including U2D2 USB converter](https://robotis.us/dynamixel-starter-set-us/) | 1 | $68.66 | $68.66
 Bearings and rails
 [95x120x13mm bearing](https://www.amazon.com/dp/B0DD4B5DLV?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) | 1 | $16.99 | $16.99
 [30x42x7mm bearings](https://www.amazon.com/dp/B082PXK5K9?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) | 10 | $15.19 / 10 | $15.19
@@ -106,7 +108,9 @@ Wiring
 [22 gauge wire](https://www.amazon.com/dp/B01K4RP8PU?ref=ppx_yo2ov_dt_b_fed_asin_title) | 160 cm | $12.48 / 100 ft | $12.48
 Filament
 [PLA filament](https://www.amazon.com/Printer-Filament-SUNLU-Dimensional-Accuracy/dp/B07XG3RM58) | 1.14 kg | $13.99 / kg | $27.98
-**Total** | | | **$2,261.33**
+Grease
+[Multi-Purpose Synthetic Grease](https://www.amazon.com/dp/B000XBH9HI) | Optional | $10.28 / 3 oz | $10.28
+**Total** | | | **$2,303.35**
 
 Taxes and shipping are not included. These prices will vary depending on where
 you live.
@@ -116,16 +120,16 @@ are extremely cheap (only a few cents apiece), and they are very easy to mess
 up if you don't have much experience crimping. I would get at least 10 male
 connectors and 30 female connectors for good measure.
 
-## Wire lengths
+## Cable lengths
 
-Here is a list of all electronics and the lengths of wires between them, from
-base to tip. Every wire is written of the form "{F/M}-{#}-{F/M}", where "{F/M}"
+Here is a list of all electronics and the lengths of cables between them, from
+base to tip. Every cable is written of the form "{F/M}-{#}-{F/M}", where "{F/M}"
 indicates whether the connector on one end is female (F) or male (M), and "{#}"
-indicates the wire length in cm. Note that many Dynamixel motors come with an
-18 cm female-female wire included, so if you see "F-18-F" in the list, you
+indicates the cable length in cm. Note that many Dynamixel motors come with an
+18 cm female-female cable included, so if you see "F-18-F" in the list, you
 don't need to make it yourself.
 
-All F/M connectors are
+All cables consist of 3 wires. All F/M connectors are
 [3-pin JST EH connectors](https://emanual.robotis.com/docs/en/dxl/x/xl430-w250/#connector-information).
 
 1. [U2D2](https://emanual.robotis.com/docs/en/parts/interface/u2d2/) USB
