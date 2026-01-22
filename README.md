@@ -99,8 +99,8 @@ Structure
 [300mm 4040 T slot aluminum extrusions](https://www.amazon.com/dp/B0CP1YY3W8?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) | 6 | $33.99 / 4 | $67.98 
 [90&deg; M6 T slot extrusion connector](https://www.amazon.com/dp/B0BS6HPXKL?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) | 4 | $23.99 / 24 | $23.99
 Wiring
-[JST B3B-EH-A (male)](https://www.digikey.com/en/products/detail/jst-sales-america-inc/B3B-EH-A/926521) | 3 | $0.09 | $0.27
-[JST EHR-03 (female)](https://www.digikey.com/en/products/detail/jst-sales-america-inc/EHR-3/527225) | 11 | $0.0448 | $0.49
+[JST B3B-EH-A (male)](https://www.digikey.com/en/products/detail/jst-sales-america-inc/B3B-EH-A/926521) | 4 | $0.09 | $0.27
+[JST EHR-03 (female)](https://www.digikey.com/en/products/detail/jst-sales-america-inc/EHR-3/527225) | 12 | $0.0448 | $0.49
 [JST SEH-001T-P0.6](https://www.digikey.com/en/products/detail/jst-sales-america-inc/SEH-001T-P0-6/26213194) | 33 | $2.52 / 100 | $2.52
 [2mm diameter heat shrink tubes](https://www.amazon.com/dp/B015K4DKNY?ref=ppx_yo2ov_dt_b_fed_asin_title) | 9 | $6.19 / 280 | $6.19
 [22 gauge wire](https://www.amazon.com/dp/B01K4RP8PU?ref=ppx_yo2ov_dt_b_fed_asin_title) | 160 cm | $12.48 / 100 ft | $12.48
@@ -131,10 +131,11 @@ All F/M connectors are
 1. [U2D2](https://emanual.robotis.com/docs/en/parts/interface/u2d2/) USB
 connector
 1. F-18-F
-1. M-13-F
+1. M-10-F
 1. [XM430-W350-T](https://emanual.robotis.com/docs/en/dxl/x/xm430-w350/)
 (waist)
-1. F-22-F
+1. F-13-M
+1. F-12-F
 1. [XM540-W270-T](https://emanual.robotis.com/docs/en/dxl/x/xm540-w270/)
 (shoulder)
 1. F-40-F (change length if you used a different extrusion length)
