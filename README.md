@@ -68,7 +68,6 @@ screw in there.
 * Crimping tool that can crimp
 [JST SEH-001T-P0.6](https://emanual.robotis.com/docs/en/dxl/x/xl430-w250/#connector-information)
 * Wire stripper
-* Lighter or some kind of heat source for heating heat shrinks
 * 2mm Phillips screwdriver
 * Hex drivers / allen wrenches, sizes 1.5mm, 2.0mm, 2.5mm, and 4mm
 * Pliers
