@@ -101,61 +101,66 @@ Structure
 [300mm 4040 T slot aluminum extrusions](https://www.amazon.com/dp/B0CP1YY3W8?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) | 6 | $33.99 / 4 | $67.98 
 [90&deg; M6 T slot extrusion connector](https://www.amazon.com/dp/B0BS6HPXKL?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) | 4 | $23.99 / 24 | $23.99
 Wiring
-[JST B3B-EH-A (male)](https://www.digikey.com/en/products/detail/jst-sales-america-inc/B3B-EH-A/926521) | 4 | $0.09 | $0.27
-[JST EHR-03 (female)](https://www.digikey.com/en/products/detail/jst-sales-america-inc/EHR-3/527225) | 12 | $0.0448 | $0.49
-[JST SEH-001T-P0.6](https://www.digikey.com/en/products/detail/jst-sales-america-inc/SEH-001T-P0-6/26213194) | 33 | $2.52 / 100 | $2.52
-[2mm diameter heat shrink tubes](https://www.amazon.com/dp/B015K4DKNY?ref=ppx_yo2ov_dt_b_fed_asin_title) | 9 | $6.19 / 280 | $6.19
 [22 gauge wire](https://www.amazon.com/dp/B01K4RP8PU?ref=ppx_yo2ov_dt_b_fed_asin_title) | 160 cm | $12.48 / 100 ft | $12.48
+[JST EHR-03 (female JST-EH)](https://www.digikey.com/en/products/detail/jst-sales-america-inc/EHR-3/527225) | 12 | $0.048 | $0.58
+[JST SEH-001T-P0.6 (JST-EH socket contact)](https://www.digikey.com/en/products/detail/jst-sales-america-inc/SEH-001T-P0-6/26213194) | 36 | $2.52 / 100 | $2.52
+[SMP-03V-BC (female JST-SM)](https://www.digikey.com/en/products/detail/jst-sales-america-inc/SMP-03V-BC/2514249) | 4 | $0.10 | $0.40
+[SMR-03V-B (male JST-SM)](https://www.digikey.com/en/products/detail/jst-sales-america-inc/SMR-03V-B/5702345) | 4 | $0.10 | $0.40
+[SHF-001T-0.8BS (JST-SM socket contact)](https://www.digikey.com/en/products/detail/jst-sales-america-inc/SHF-001T-0-8BS/26741597) | 12 | $3.73 / 100 | $3.73
+[SYM-001T-P0.6 (JST-SM pin contact)](https://www.digikey.com/en/products/detail/jst-sales-america-inc/SYM-001T-P0-6-N/26213081) | 12 | $8.21 / 100 | $8.21
 Filament
 [PLA filament](https://www.amazon.com/Printer-Filament-SUNLU-Dimensional-Accuracy/dp/B07XG3RM58) | 1.14 kg | $13.99 / kg | $27.98
 Grease
 [Multi-Purpose Synthetic Grease](https://www.amazon.com/dp/B000XBH9HI) | Optional | $10.28 / 3 oz | $10.28
-**Total** | | | **$2,303.35**
+**Total** | | | **$2,309.72**
 
 Taxes and shipping are not included. These prices will vary depending on where
 you live.
 
-I recommend you buy more JST connectors than the minimum indicated above. They
-are extremely cheap (only a few cents apiece), and they are very easy to mess
-up if you don't have much experience crimping. I would get at least 10 male
-connectors and 30 female connectors for good measure.
+For any JST components, I recommend you get at least double the minimum indicated
+above. They are only a few cents apiece, and they are very easy to mess up if you
+don't have much experience crimping.
 
 ## Cable lengths
 
 Here is a list of all electronics and the lengths of cables between them, from
-base to tip. Every cable is written of the form "{F/M}-{#}-{F/M}", where "{F/M}"
-indicates whether the connector on one end is female (F) or male (M), and "{#}"
-indicates the cable length in cm. Note that many Dynamixel motors come with an
-18 cm female-female cable included, so if you see "F-18-F" in the list, you
-don't need to make it yourself.
+base to tip. Every cable is written of the form "X-N-X", where "N" indicates
+the cable length in cm, and "X" indicates the type of connector:
+
+* FEH: Female JST EH (JST EHR-03)
+* FSM: Female JST-SM (SMP-03V-BC)
+* MSM: Male JST-SM (SMR-03V-B)
+
+Note that many Dynamixel motors come with an 18 cm female-female JST-EH cable
+included, so if you see "FEH-18-FEH" in the list, you don't need to make it yourself.
 
 All cables consist of 3 wires. All F/M connectors are
 [3-pin JST EH connectors](https://emanual.robotis.com/docs/en/dxl/x/xl430-w250/#connector-information).
 
 1. [U2D2](https://emanual.robotis.com/docs/en/parts/interface/u2d2/) USB
 connector
-1. F-18-F
-1. M-10-F
+1. FEH-18-FSM
+1. MSM-10-FEH
 1. [XM430-W350-T](https://emanual.robotis.com/docs/en/dxl/x/xm430-w350/)
 (waist)
-1. F-13-M
-1. F-12-F
+1. FEH-13-MSM
+1. FSM-12-FEH
 1. [XM540-W270-T](https://emanual.robotis.com/docs/en/dxl/x/xm540-w270/)
 (shoulder)
-1. F-40-F (change length if you used a different extrusion length)
-1. M-17-F
+1. FEH-40-FSM (change length if you used a different extrusion length)
+1. MSM-17-FEH
 1. [XM540-W270-T](https://emanual.robotis.com/docs/en/dxl/x/xm540-w270/)
 (elbow)
-1. F-32-M
-1. F-18-F (change length if you used a different extrusion length)
+1. FEH-32-MSM
+1. FSM-18-FEH (change length if you used a different extrusion length)
 1. [XM430-W350-T](https://emanual.robotis.com/docs/en/dxl/x/xm430-w350/)
 (wrist 1)
-1. F-18-F
+1. FEH-18-FEH
 1. [XM430-W350-T](https://emanual.robotis.com/docs/en/dxl/x/xm430-w350/)
 (wrist 2)
-1. F-21-F
+1. FEH-21-FEH
 1. [XL430-W350-T](https://emanual.robotis.com/docs/en/dxl/x/xl430-w250/)
 (wrist 3)
-1. F-15-F
+1. FEH-15-FEH
 1. [XL430-W350-T](https://emanual.robotis.com/docs/en/dxl/x/xl430-w250/)
 (gripper)
