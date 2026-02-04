@@ -1,3 +1,13 @@
 <?xml version="1.0" ?>
 <robot name="manuel1">
+  <link name="base_link">
+    <visual>
+        <geometry>
+            <mesh filename="visual_links/base_visual.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="LightGrey">
+            <color rgba="0.7 0.7 0.7 1.0"/>
+        </material>
+    </visual>
+  </link>
 </robot>
