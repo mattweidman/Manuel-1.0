@@ -57,4 +57,27 @@
         </geometry>
     </collision>
   </link>
+
+  <joint name="elbow_joint" type="revolute">
+    <parent link="upper_arm_link"/>
+    <child link="forearm_link"/>
+    <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.305"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-3.14159265" upper="3.14159265"/>
+  </joint>
+
+  <link name="forearm_link">
+    <visual>
+        <origin xyz="0 0 -0.4357" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="visual_links/forearm_visual.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+    </visual>
+    <collision>
+        <origin xyz="0 0 -0.4357" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="collision_links/forearm_collision.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+    </collision>
+  </link>
 </robot>
