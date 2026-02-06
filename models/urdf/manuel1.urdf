@@ -80,4 +80,27 @@
         </geometry>
     </collision>
   </link>
+
+  <joint name="wrist_1_joint" type="revolute">
+    <parent link="forearm_link"/>
+    <child link="wrist_12_link"/>
+    <origin rpy="0.0 0.0 0.0" xyz="0.0 0.06 0.0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14159265" upper="3.14159265"/>
+  </joint>
+
+  <link name="wrist_12_link">
+    <visual>
+        <origin xyz="0 -0.06 -0.4357" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="visual_links/wrist_12_visual.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+    </visual>
+    <collision>
+        <origin xyz="0 -0.06 -0.4357" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="collision_links/wrist_12_collision.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+    </collision>
+  </link>
 </robot>
