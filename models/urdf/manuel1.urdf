@@ -12,4 +12,23 @@
         </geometry>
     </collision>
   </link>
+  <joint name="waist_joint" type="revolute">
+    <parent link="base_link"/>
+    <child link="shoulder_link"/>
+    <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14159265" upper="3.14159265"/>
+  </joint>
+  <link name="shoulder_link">
+    <visual>
+        <geometry>
+            <mesh filename="visual_links/shoulder_visual.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+    </visual>
+    <collision>
+        <geometry>
+            <mesh filename="collision_links/shoulder_collision.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+    </collision>
+  </link>
 </robot>
