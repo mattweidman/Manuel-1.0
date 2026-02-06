@@ -103,4 +103,27 @@
         </geometry>
     </collision>
   </link>
+
+  <joint name="wrist_2_joint" type="revolute">
+    <parent link="wrist_12_link"/>
+    <child link="wrist_23_link"/>
+    <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.4033"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-3.14159265" upper="3.14159265"/>
+  </joint>
+
+  <link name="wrist_23_link">
+    <visual>
+        <origin xyz="0 -0.06 -0.839" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="visual_links/wrist_23_visual.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+    </visual>
+    <collision>
+        <origin xyz="0 -0.06 -0.839" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="collision_links/wrist_23_collision.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+    </collision>
+  </link>
 </robot>
