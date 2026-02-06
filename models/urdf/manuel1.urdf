@@ -40,7 +40,7 @@
     <child link="upper_arm_link"/>
     <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.1307"/>
     <axis xyz="1 0 0"/>
-    <limit lower="-3.14159265" upper="3.14159265"/>
+    <limit lower="-1.57079632" upper="1.57079632"/>
   </joint>
 
   <link name="upper_arm_link">
@@ -63,7 +63,7 @@
     <child link="forearm_link"/>
     <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.305"/>
     <axis xyz="1 0 0"/>
-    <limit lower="-3.14159265" upper="3.14159265"/>
+    <limit lower="0.0" upper="3.14159265"/>
   </joint>
 
   <link name="forearm_link">
