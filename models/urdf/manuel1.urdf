@@ -1,5 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="manuel1">
+
   <link name="base_link">
     <visual>
         <geometry>
@@ -12,6 +13,7 @@
         </geometry>
     </collision>
   </link>
+
   <joint name="waist_joint" type="revolute">
     <parent link="base_link"/>
     <child link="shoulder_link"/>
@@ -19,6 +21,7 @@
     <axis xyz="0 0 1"/>
     <limit lower="-3.14159265" upper="3.14159265"/>
   </joint>
+
   <link name="shoulder_link">
     <visual>
         <geometry>
@@ -28,6 +31,29 @@
     <collision>
         <geometry>
             <mesh filename="collision_links/shoulder_collision.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+    </collision>
+  </link>
+
+  <joint name="shoulder_joint" type="revolute">
+    <parent link="shoulder_link"/>
+    <child link="upper_arm_link"/>
+    <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.1307"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-3.14159265" upper="3.14159265"/>
+  </joint>
+
+  <link name="upper_arm_link">
+    <visual>
+        <origin xyz="0 0 -0.1307" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="visual_links/upper_arm_visual.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+    </visual>
+    <collision>
+        <origin xyz="0 0 -0.1307" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="collision_links/upper_arm_collision.stl" scale="0.001 0.001 0.001"/>
         </geometry>
     </collision>
   </link>
