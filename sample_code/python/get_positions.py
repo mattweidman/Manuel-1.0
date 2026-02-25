@@ -16,12 +16,14 @@ def arr_diff(arr1, arr2):
 
 robot_config = RobotConfig(motor_ids=[2, 3, 4, 5, 6, 7, 8])
 
-print(f"Waiting {args.delay_to_unfreeze} seconds before unfreezing...")
-sleep(args.delay_to_unfreeze)
-robot_config.enable_torque(False)
+if args.delay_to_unfreeze > 0:
+    print(f"Waiting {args.delay_to_unfreeze} seconds before unfreezing...")
+    sleep(args.delay_to_unfreeze)
+    robot_config.enable_torque(False)
 
-print(f"Waiting {args.delay_to_record} seconds before recording...")
-sleep(args.delay_to_record)
+if args.delay_to_record > 0:
+    print(f"Waiting {args.delay_to_record} seconds before recording...")
+    sleep(args.delay_to_record)
 
 if args.freeze:
     robot_config.enable_torque(True)
