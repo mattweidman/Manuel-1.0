@@ -43,7 +43,7 @@ freeze or unfreeze all joints on a timer.
 
 If the robot is currently frozen (torque enabled in all joints), the robot will
 unfreeze (disable all of its joints) after the specified number of seconds.
-This is useful if you want to disable the robot, but you want to give yourself
+This is useful if you want to disable the robot, and you want to give yourself
 time to grab it to keep it from falling.
 
 Syntax:

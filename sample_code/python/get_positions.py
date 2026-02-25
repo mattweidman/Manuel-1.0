@@ -29,9 +29,8 @@ if args.freeze:
     robot_config.enable_torque(True)
     print("The robot has been frozen.")
 
-resting_pos = originPositions
 absolute_pos = robot_config.get_positions()
-relative_pos = arr_diff(absolute_pos, resting_pos)
+relative_pos = arr_diff(absolute_pos, originPositions)
 
 print("Relative position:", relative_pos)
 print("Absolute position:", absolute_pos)
