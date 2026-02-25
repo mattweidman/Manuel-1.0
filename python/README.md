@@ -25,10 +25,10 @@ close the program.
 shoulder. This will be your "origin position", which all other positions
 will be relative to.
 6. Save the origin position in `config.json` with
-`python3 sample_code/python/get_positions.py -s`
+`python3 "python/get_positions.py -s`
 7. You're ready to start developing. For an example, try out the code in
-`wave.py` with `python3 sample_code/python/wave.py`. Make sure the robot has
-a clear space around it before running.
+`wave.py` with `python3 "python/wave.py`. Make sure the robot has a clear space
+around it before running.
 
 ## get_positions.py
 
@@ -48,13 +48,13 @@ time to grab it to keep it from falling.
 
 Syntax:
 
-`python3 sample_code/python/get_positions.py -delay_to_unfreeze <float>`
+`python3 "python/get_positions.py -delay_to_unfreeze <float>`
 
-`python3 sample_code/python/get_positions.py -du <float>`
+`python3 "python/get_positions.py -du <float>`
 
 Example:
 
-`sample_code/python/get_positions.py -du 4.5`
+`"python/get_positions.py -du 4.5`
 
 #### --delay_to_record
 
@@ -66,13 +66,13 @@ you manually manipulate it. Sort of like setting a timer on your camera.
 
 Syntax:
 
-`python3 sample_code/python/get_positions.py --delay_to_record <float>`
+`python3 "python/get_positions.py --delay_to_record <float>`
 
-`python3 sample_code/python/get_positions.py -dr <float>`
+`python3 "python/get_positions.py -dr <float>`
 
 Example:
 
-`sample_code/python/get_positions.py -dr 4.5`
+`"python/get_positions.py -dr 4.5`
 
 #### --freeze
 
@@ -82,9 +82,9 @@ want it to fall yet.
 
 Syntax:
 
-`python3 sample_code/python/get_positions.py --freeze`
+`python3 "python/get_positions.py --freeze`
 
-`python3 sample_code/python/get_positions.py -f`
+`python3 "python/get_positions.py -f`
 
 #### --save
 
@@ -93,6 +93,6 @@ When this flag is used, the robot will save its position in the
 
 Syntax:
 
-`python3 sample_code/python/get_positions.py --save`
+`python3 "python/get_positions.py --save`
 
-`python3 sample_code/python/get_positions.py -s`
+`python3 "python/get_positions.py -s`
