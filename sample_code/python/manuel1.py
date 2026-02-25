@@ -1,10 +1,19 @@
 # Common APIs to use in different control scripts for Manuel 1.0
 
 import dynamixel_sdk
+import json
+from pathlib import Path
 from time import sleep
 
-# portHandler = dynamixel_sdk.PortHandler('COM6') # Windows
-portHandler = dynamixel_sdk.PortHandler('/dev/tty.usbserial-FT9MIQU2') # Mac
+scriptDirectory = Path(__file__).resolve().parent
+with open(scriptDirectory/'config.json', 'r') as configFile:
+    config = json.load(configFile)
+
+usbPort = config['usb_port']
+baudRate = config['baud_rate']
+originPositions = config['origin_positions']
+
+portHandler = dynamixel_sdk.PortHandler(usbPort)
 packetHandler = dynamixel_sdk.PacketHandler(2.0)
 
 # Open port
@@ -15,7 +24,7 @@ else:
     quit()
 
 # Set port baudrate
-if portHandler.setBaudRate(57600):
+if portHandler.setBaudRate(baudRate):
     print("Succeeded to change the baudrate")
 else:
     print("Failed to change the baudrate")
@@ -321,6 +330,3 @@ class RobotConfig:
     def write_pwm(self, motor_index: int, target_pwm: int):
         '''Write PWM for one motor.'''
         write_pwm(self.motor_ids[motor_index], target_pwm)
-
-def arr_sum(arr1, arr2):
-    return [i+j for (i,j) in zip(arr1, arr2)]
