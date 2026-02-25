@@ -1,0 +1,13 @@
+{
+    "usb_port": "COM6",
+    "baud_rate": 57600,
+    "origin_positions": {
+        "waist": 0,
+        "shoulder": 0,
+        "elbow": 0,
+        "wrist_1": 0,
+        "wrist_2": 0,
+        "wrist_3": 0,
+        "gripper": 0
+    }
+}
