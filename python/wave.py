@@ -8,8 +8,7 @@ waving_accelerations = [20] * 7
 robot_config = RobotConfig(motor_ids=[2, 3, 4, 5, 6, 7, 8])
 robot_config.set_all_operating_modes_to_extended_position()
 robot_config.set_velocities(regular_velocities)
-robot_config.set_accelerations([10] * 7)
-robot_config.set_all_operating_modes_to_extended_position()
+robot_config.set_accelerations(regular_accelerations)
 robot_config.enable_torque(True)
 
 def arr_sum(arr1, arr2):

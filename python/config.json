@@ -2,12 +2,12 @@
     "usb_port": "/dev/tty.usbserial-FT9MIQU2",
     "baud_rate": 57600,
     "origin_positions": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        1591,
+        776,
+        3511,
+        2968,
+        2793,
+        2124,
+        1728
     ]
 }
